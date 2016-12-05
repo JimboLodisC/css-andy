@@ -1,0 +1,81 @@
+html {
+  background: linear-gradient(135deg, #AFA, #101);
+  height: 100%;
+}
+
+.cir {
+  background: radial-gradient(circle at top left, #d4f669, #a4c639);
+  height: 24em;
+  width: 16em;
+  margin: 4em auto;
+  border-radius: 7.5em 7.5em 1em 1em;
+  position: relative;
+}
+
+.ant {
+  background: linear-gradient(to bottom, #d4f669, #a4c639);
+  height: 0.5em;
+  width: 3em;
+  display: inline-block;
+}
+
+#leftAnt {
+  transform: rotate(55deg);
+  border-radius: 2em 0 0 2em;
+  margin: 0 0 0 1em;
+}
+
+#rightAnt {
+  transform: rotate(-55deg);
+  border-radius: 0 2em 2em 0;
+  margin: 0 0 0 7.9em;
+}
+
+.eye {
+  background: radial-gradient(circle at top left, #FFF, #DDD);
+  height: 2em;
+  width: 2em;
+  margin: 3em 0 0 4em;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.mouth {
+  background: radial-gradient(circle 20em, #FFF, #AAA);
+  height: 1em;
+  width: 16em;
+  margin: 2em 0 0 0;
+  display: inline-block;
+}
+
+.arm {
+  background: radial-gradient(circle at top left, #d4f669, #a4c639);
+  height: 10em;
+  width: 3em;
+  border-radius: 8em;
+}
+
+#leftArm {
+  margin-left: -4em;
+}
+
+#rightArm {
+  margin: -10em 17em;
+}
+
+.leg {
+  background: radial-gradient(circle at bottom right, #d4f669, #a4c639);
+  height: 5em;
+  width: 3em;
+  margin-top: 14.4em;
+  border-radius: 0 0 8em 8em;
+  display: inline-block;
+}
+
+#leftLeg {
+  margin-left: 4em;
+}
+
+#rightLeg {
+  margin-left: 2em;
+}
